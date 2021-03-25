@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <style> 
+.wrapper {
+    display: flex;
+    width: 500px;
+    background: dodgerblue;
+}
+
+.input {width: 200px;padding: 20px;padding: 19px;}
+
+
+
+.input input {
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+   
+    padding: 7px 0px;
+    /* border-bottom: 2px solid; */
+}
+
+.cards {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h2 {background: beige;border-radius: 10px;box-shadow: 4px 8px #ffffff;}
+
+h2:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+} 
+.add {
+    width: 272px;
+    color: white;
+    font-size: 117%;
+}
+
+</style>
+
+</head>
+
+
+
+<body> 
+      <!--js Grade counter project-->
+       <div class="container"> 
+          <div class="wrapper"> 
+
+            <div class="cards"> 
+                <h2> student Grade Point</h2>
+            </div>
+             <div class="input"> 
+
+                <input type="text" placeholder="Web Development" id="wd">
+                <input type="text" placeholder=" Math" id="maths">
+                <input type="text" placeholder="physic" id="pysics">
+                <input type="text" placeholder=" designing" id="design">
+                <button class="btn btn-success" onclick="calculator()"> see the percentage</button>
+                <div class="add">
+                    <p class="showData"></p>
+                </div>
+            </div>
+            
+        </div>
+       
+    
+    </div>
+      <!--js Grade counter project end-->
+   
+
+      <div class="div1 py-5"> 
+      <h2 id="h2s"></h2>
+      </div>
+  
+  
+  
+  
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="ps..js"></script>
+</body>
+</html>
